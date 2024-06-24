@@ -14,3 +14,4 @@ class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         nums.sort()
         return self.binary_search_manual(nums, target)
+
